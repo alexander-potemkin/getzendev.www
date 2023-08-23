@@ -1,0 +1,100 @@
+ErrorDocument 403 /page31519572.html
+ErrorDocument 404 /page31519572.html
+
+DirectoryIndex page30233655.html
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^cases/petsharing$ page30947262.html [NC]
+RewriteRule ^cases/petsharing/$ page30947262.html [NC]
+
+RewriteRule ^cases/cargo_old$ page30288113.html [NC]
+RewriteRule ^cases/cargo_old/$ page30288113.html [NC]
+
+RewriteRule ^cases/monitoring_saas$ page30288043.html [NC]
+RewriteRule ^cases/monitoring_saas/$ page30288043.html [NC]
+
+RewriteRule ^cases$ page30236617.html [NC]
+RewriteRule ^cases/$ page30236617.html [NC]
+
+RewriteRule ^cases/cargo$ page31079860.html [NC]
+RewriteRule ^cases/cargo/$ page31079860.html [NC]
+
+RewriteRule ^cases/news_crowdsourcing$ page31229535.html [NC]
+RewriteRule ^cases/news_crowdsourcing/$ page31229535.html [NC]
+
+RewriteRule ^cases/media_company$ page31818080.html [NC]
+RewriteRule ^cases/media_company/$ page31818080.html [NC]
+
+RewriteRule ^cases/news_crowdsourcing_old$ page30287353.html [NC]
+RewriteRule ^cases/news_crowdsourcing_old/$ page30287353.html [NC]
+
+RewriteRule ^cases/marketplace_affirmations$ page30287424.html [NC]
+RewriteRule ^cases/marketplace_affirmations/$ page30287424.html [NC]
+
+RewriteRule ^cases/club_app$ page31238542.html [NC]
+RewriteRule ^cases/club_app/$ page31238542.html [NC]
+
+RewriteRule ^cases/corporate_mobile_micro_learning$ page31292862.html [NC]
+RewriteRule ^cases/corporate_mobile_micro_learning/$ page31292862.html [NC]
+
+RewriteRule ^cases/marketplace_smart_tourist$ page31086849.html [NC]
+RewriteRule ^cases/marketplace_smart_tourist/$ page31086849.html [NC]
+
+RewriteRule ^cases/club_app_old$ page30287860.html [NC]
+RewriteRule ^cases/club_app_old/$ page30287860.html [NC]
+
+RewriteRule ^cases/corporate_mobile_micro_learning_old$ page30287978.html [NC]
+RewriteRule ^cases/corporate_mobile_micro_learning_old/$ page30287978.html [NC]
+
+RewriteRule ^cases/been$ page31311766.html [NC]
+RewriteRule ^cases/been/$ page31311766.html [NC]
+
+RewriteRule ^cases/metroll_app$ page30287490.html [NC]
+RewriteRule ^cases/metroll_app/$ page30287490.html [NC]
+
+RewriteRule ^cases/bookwa$ page30287901.html [NC]
+RewriteRule ^cases/bookwa/$ page30287901.html [NC]
+
+RewriteRule ^cases/etceteras$ page31639960.html [NC]
+RewriteRule ^cases/etceteras/$ page31639960.html [NC]
+
+RewriteRule ^cases/been_clone_old$ page30287831.html [NC]
+RewriteRule ^cases/been_clone_old/$ page30287831.html [NC]
+
+RewriteRule ^cases/speaker_expert_assistant$ page30287932.html [NC]
+RewriteRule ^cases/speaker_expert_assistant/$ page30287932.html [NC]
+
+RewriteRule ^cases/my_dreams_log_app$ page30288148.html [NC]
+RewriteRule ^cases/my_dreams_log_app/$ page30288148.html [NC]
+
+RewriteRule ^cases/marketplace_smart_tourist_old$ page30288192.html [NC]
+RewriteRule ^cases/marketplace_smart_tourist_old/$ page30288192.html [NC]
+
+RewriteRule ^caprover_services$ page30324336.html [NC]
+RewriteRule ^caprover_services/$ page30324336.html [NC]
+
+RewriteRule ^cases/petsharing_app$ page30287275.html [NC]
+RewriteRule ^cases/petsharing_app/$ page30287275.html [NC]
+
+RewriteRule ^about$ page31987668.html [NC]
+RewriteRule ^about/$ page31987668.html [NC]
+
+RewriteRule ^cases/nfty$ page32151812.html [NC]
+RewriteRule ^cases/nfty/$ page32151812.html [NC]
+
+RewriteRule ^cases/nocodesaas$ page32152542.html [NC]
+RewriteRule ^cases/nocodesaas/$ page32152542.html [NC]
+
+RewriteRule ^services/software$ page32390752.html [NC]
+RewriteRule ^services/software/$ page32390752.html [NC]
+
+
+<IfModule mod_headers.c>
+	Header set X-Content-Type-Options nosniff
+	Header set X-XSS-Protection "1; mode=block"
+</IfModule>
+
